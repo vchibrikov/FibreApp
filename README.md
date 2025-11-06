@@ -111,6 +111,11 @@ FibreApp can be installed for both:
 - iOS: https://apps.apple.com/pl/app/fibreapp/id6747246858?l=en
 - Android https://play.google.com/store/apps/details?id=ipan.lublin.pl.fibreapp&hl=en
 
+To run on your emulator:
+- clone repository with either Android or iOS app version
+- Open Android/iOS projects in Android Studio/XCode, respectively
+- Build and run the app on your device or emulator
+
 ![fig_1](https://github.com/user-attachments/assets/48b0fcbe-62cc-40b4-9b58-f0e8e48b08c3)
 **Fig.1.** FibreApp overview of the components and activities. Subsequent screenshots represent app view controllers: a) app icon appearance on a desktop; b) Main menu view controller; c) About view controller; d) Localization view controller; e) Manual search view controller; f) Camera search view controller; g) View more view controller.
 
