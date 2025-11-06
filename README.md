@@ -22,7 +22,9 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 
 FibreApp Android code repository: https://github.com/vchibrikov/android_fibreapp.git
 
+FibreApp iOS code repository: 
 
+FibreApp image dataset: https://github.com/vchibrikov/images_fibreapp
 
 <table> <thead> <tr> <th colspan="2">Description of the project</th> </tr> </thead> 
   
