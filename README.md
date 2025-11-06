@@ -13,3 +13,9 @@ More information on the project: www.fibreapp.pl
 
 For any additional issue, please contact v.chibrikov@ipan.lublin.pl
 
+Download FibreApp in App Store (iOS): https://apps.apple.com/pl/app/fibreapp/id6747246858?l=en
+
+Download FibreApp in Google Play (Android): https://play.google.com/store/apps/details?id=ipan.lublin.pl.fibreapp&hl=en
+
+Download image dataset for machine learning: https://doi.org/10.5281/zenodo.17369912 
+
