@@ -96,29 +96,20 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 
 # Usage of FibreApp application
 
+## Requirement
+- iOS > 15.0
+- Android > 10.0
+- 
+## Installation
+FibreApp can be installed for both iOS (https://apps.apple.com/pl/app/fibreapp/id6747246858?l=en) and Android (https://play.google.com/store/apps/details?id=ipan.lublin.pl.fibreapp&hl=en).
 
+![fig_1](https://github.com/user-attachments/assets/48b0fcbe-62cc-40b4-9b58-f0e8e48b08c3)
+**Fig.1.** FibreApp overview of the components and activities. Subsequent screenshots represent app view controllers: a) app icon appearance on a desktop; b) Main menu view controller; c) About view controller; d) Localization view controller; e) Manual search view controller; f) Camera search view controller; g) View more view controller.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The app is composed of seven principal view controllers, supported by view controller subclasses and data handling subclasses:
+- Main menu view controller (Fig.1b): This facet facilitates user interaction with the subsequent view controllers – with information data (About view controller; Fig.1c), localization settings (Localization view controller; Fig.1d), manual information search (Manual search view controller; Fig.1e), and machine learning-powered livestream image classification (Camera search view controller; Fig.1f);
+- Localization view controller: acts as a view controller for a dedicated language selection interface. Upon view loading, it configures the table view data and delegate sources and retrieves the currently selected language code from the persistent storage. The table presents a hardcoded array of language options, using cell configuration to display the language name and render a checkmark accessory on the row corresponding to the active language code. User interaction via row selection triggers an update to the selected language code property, persists the new code property to persistent storage for application-wide consistency, and subsequently reloads the table to update the checkmark location. In turn, every subsequent view controller checks the language code loaded and retrieves the necessary user-facing text by implementing string localization, referencing key-value pairs stored within the dedicated strings resource files for the English, Polish, and Ukrainian locales.
+- About view controller executes three primary tasks: setting up the static user interface elements (like logo image and text views); configuring tap gesture recognizers on the logo for interactive linking; retrieving the language code property and fetching the localized text.
+- Manual search view controller: manages a searchable, localized list of species data. Upon appearing, the view controller initiates a refresh by retrieving the user's selected language code and fetching the complete, sorted, and localized species data into the array via a shared data manager singleton. Here, the display updating method dynamically manages the displayed species array based on the current state of the search bar: if the user is actively typing, it performs a case-insensitive filter against the localized name property of each species; otherwise, it displays all species. Finally, the segue method is implemented to pass the selected object, its data list, and the active language code to the subsequent View more view controller (Fig.1g) for detailed display.
+- Camera search view controller: while loading, it immediately sets up the device's camera and displays the live video feed as the screen's background. For the first setup, access confirmation is required. As the video streams, the code continuously captures frames and sends them to an image classification machine learning model (for Android, a static solution with a single frame capture was applied). Then, the model analyzes the frames to identify the fruit or object in view. Once a class is recognized, the view controller updates the labels to show the following class label, as well as some initial values (pectin, cellulose, and hemicellulose content). All text displayed on the screen is instantly localized based on the active language code property. When the class was detected, a View more button appears, tapping on which redirects the user to the View more view controller.
+- View more view controller: designed to receive the list object (which holds all the data for the class selected in Manual search view controller or class detected in Camera search view controller) and the active language code. While being received, data is localized according to the active language code.
