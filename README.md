@@ -60,7 +60,7 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 
 <td>Sample type:</td> <td>Machine learning models (model.tflite; model.mlmodel); Python code (model.py) </td> </tr> </tbody>
 
-<td>Sample description:</td> <td>model.tflite was generated with model.py; model.mlmodel was generated in CreateML; model.py is a home-made Python code for the creation of a TensorFlow Lite model with a transfer learning methodology </td> </tr> </tbody>
+<td>Sample description:</td> <td>model.tflite was generated with model.py <br>model.mlmodel was generated in CreateML <br>model.py is a home-made Python code for the creation of a TensorFlow Lite model with a transfer learning methodology </td> </tr> </tbody>
 
 <thead> <tr> <th colspan="2">models dataset – datafiles information</th> </tr> </thead> 
 
@@ -94,7 +94,7 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 
 <td>Datafile format:</td> <td>.py</td> </tr> </tbody> <table>
 
-
+# Usage of FibreApp application
 
 
 
