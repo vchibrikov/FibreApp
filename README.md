@@ -18,7 +18,11 @@ Download FibreApp in App Store (iOS): https://apps.apple.com/pl/app/fibreapp/id6
 
 Download FibreApp in Google Play (Android): https://play.google.com/store/apps/details?id=ipan.lublin.pl.fibreapp&hl=en
 
-Download image dataset for machine learning: https://doi.org/10.5281/zenodo.17369912 
+Download image dataset for machine learning: https://doi.org/10.5281/zenodo.17369912
+
+FibreApp Android code repository: https://github.com/vchibrikov/android_fibreapp.git
+
+
 
 <table> <thead> <tr> <th colspan="2">Description of the project</th> </tr> </thead> 
   
