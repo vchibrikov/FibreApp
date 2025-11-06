@@ -48,12 +48,17 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 
 ## models
 
-<thead> <tr> <th colspan="2">Institution</th> </tr> </thead> 
+<thead> <tr> <th colspan="2">models datset – general information</th> </tr> </thead> 
 
-<tbody> <tr> <td>Facility name:</td> <td>Institute of Agrophysics, Polish Academy of Sciences </td> </tr> <tr> 
+<tbody> <tr> <td>Dataset name:</td> <td>models</td> </tr> <tr> 
 
-<td> Facility division:</td> <td>Department of Microstructure and Mechanics of Biomaterials</td> </tr> </tbody>
+<td>Dataset description:</td> <td>The dataset contains both Image Feature Print V1-based (iOS) and EfficientNetB0-based (Android) models, as well as code to generate EfficientNetB0-based model</td> </tr> </tbody>
 
-<tbody> <tr> <td>Facility address:</td> <td>Doświadczalna 4, 20-290 Lublin, Poland </td> </tr> 
-  
-<tr> <td>Facility URL:</td> <td>www.ipan.lublin.pl</td> </tr> </tbody>
+<thead> <tr> <th colspan="2">models datset – saample information</th> </tr> </thead> 
+
+<tbody> <tr> <td>Sample name:</td> <td>model.tflite; model.mlmodel; model.py</td> </tr> <tr> 
+
+<td>Sample type:</td> <td>Machine learning models (model.tflite; model.mlmodel); Python code (model.py) </td> </tr> </tbody>
+
+<td>Sample description:</td> <td>model.tflite was generated with model.py; model.mlmodel was generated in CreateML; model.py is a home-made Python code for the creation of a TensorFlow Lite model with a transfer learning methodology </td> </tr> </tbody>
+
