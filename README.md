@@ -48,17 +48,51 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 
 ## models
 
-<thead> <tr> <th colspan="2">models datset – general information</th> </tr> </thead> 
+<thead> <tr> <th colspan="2">models dataset – general information</th> </tr> </thead> 
 
 <tbody> <tr> <td>Dataset name:</td> <td>models</td> </tr> <tr> 
 
 <td>Dataset description:</td> <td>The dataset contains both Image Feature Print V1-based (iOS) and EfficientNetB0-based (Android) models, as well as code to generate EfficientNetB0-based model</td> </tr> </tbody>
 
-<thead> <tr> <th colspan="2">models datset – saample information</th> </tr> </thead> 
+<thead> <tr> <th colspan="2">models dataset – saample information</th> </tr> </thead> 
 
 <tbody> <tr> <td>Sample name:</td> <td>model.tflite; model.mlmodel; model.py</td> </tr> <tr> 
 
 <td>Sample type:</td> <td>Machine learning models (model.tflite; model.mlmodel); Python code (model.py) </td> </tr> </tbody>
 
 <td>Sample description:</td> <td>model.tflite was generated with model.py; model.mlmodel was generated in CreateML; model.py is a home-made Python code for the creation of a TensorFlow Lite model with a transfer learning methodology </td> </tr> </tbody>
+
+<thead> <tr> <th colspan="2">models dataset – datafiles information</th> </tr> </thead> 
+
+<tbody> <tr> <td>Datafile name:</td> <td>In .tflite and .mlmodel files, classes are numerically encoded to represent the following species: 1. Apple; 2. Apricot; 3. Asparagus; 4. Avocado; 5. Banana; 6. Broad bean; 7. Green bean; 8. Red beetroot; 9. Bell pepper; 10. Blueberry; 11. Broccoli; 12. White cabbage; 13. Carrot; 14. Celery; 15. Champignon; 16. Sweet cherry; 17. Chinese cabbage; 18. Chokeberry; 19. Corn; 20. Cucumber; 21. Red grapes; 22. Dill; 23. Doughnut peach; 24. Eggplant; 25. Grapefruit; 26. Iceberg lettuce; 27. Kiwifruit; 28. Leek; 29. Lemon; 30. White grapes; 31. Lime; 32. Mango; 33. Melon; 34. Onion; 35. Orange; 36. Parsley (leaves); 37. Parsley (root); 38. Peach; 39. Pear; 40. Pineapple; 41. Plum; 42. Potato; 43. Pumpkin; 44. Radish; 45. Raspberry; 46. Strawberry; 47. Sweet potato; 48. Tomato; 49. Watermelon; 50. Zucchini</td> </tr> <tr> 
+
+<td>Datafile format:</td> <td>.tflite; .mlmodel; .py</td> </tr> </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
