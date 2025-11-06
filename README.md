@@ -99,7 +99,7 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 ## Requirement
 - iOS > 15.0
 - Android > 10.0
-- 
+
 ## Installation
 FibreApp can be installed for both iOS (https://apps.apple.com/pl/app/fibreapp/id6747246858?l=en) and Android (https://play.google.com/store/apps/details?id=ipan.lublin.pl.fibreapp&hl=en).
 
