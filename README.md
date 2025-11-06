@@ -35,3 +35,13 @@ Download image dataset for machine learning: https://doi.org/10.5281/zenodo.1736
 </td> </tr> 
   
 <tr> <td>Keywords:</td> <td>Cellulose; hemicellulose; pectin; dietary fiber; Android application; iOS application; machine learning; image classification model</td> </tr> </tbody> 
+
+<thead> <tr> <th colspan="2">Institution</th> </tr> </thead> 
+
+<tbody> <tr> <td>Facility name:</td> <td>Institute of Agrophysics, Polish Academy of Sciences </td> </tr> <tr> 
+
+<td> Facility division:</td> <td>Department of Microstructure and Mechanics of Biomaterials</td> </tr> </tbody>
+
+<tbody> <tr> <td>Facility address:</td> <td>Doświadczalna 4, 20-290 Lublin, Poland </td> </tr> 
+  
+<tr> <td>Facility URL:</td> <td>www.ipan.lublin.pl</td> </tr> </tbody> 
