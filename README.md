@@ -109,7 +109,7 @@ FibreApp image dataset: https://github.com/vchibrikov/images_fibreapp
 ## Installation
 FibreApp can be installed for both:
 - iOS: https://apps.apple.com/pl/app/fibreapp/id6747246858?l=en
-- Android https://play.google.com/store/apps/details?id=ipan.lublin.pl.fibreapp&hl=en
+- Android: https://play.google.com/store/apps/details?id=ipan.lublin.pl.fibreapp&hl=en
 
 To run on your emulator:
 - clone repository with either Android or iOS app version
